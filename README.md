@@ -1,8 +1,6 @@
 # RM3100 Magnetometer Driver for STM32U5
 
-A small I2C driver for the PNI **RM3100** geomagnetic sensor, written against the STM32 HAL for an **STM32U575ZI** (Nucleo-style board), plus a set of test routines you can watch live in STM32CubeIDE.
-
-Built by Team Parikshit (Manipal Institute of Technology) while evaluating magnetometers for a student satellite.
+A small I2C driver for the PNI **RM3100** geomagnetic sensor, written against the STM32 HAL for an **STM32U575ZI**, plus a set of test routines you can watch live in STM32CubeIDE.
 
 ## What it does
 
@@ -58,7 +56,7 @@ if (RM3100_Init(&mag) == RM3100_OK) {
 
 ## Status
 
-Work in progress. The driver and tests are in place; integrating them into the main flight-computer firmware is the next step. Not validated against a reference magnetometer.
+Work in progress. The driver, an example and bring-up tests are in place. The project's `main.c` does not use them yet.
 
 ## Hardware
 
